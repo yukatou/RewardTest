@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dLu-j5-fit">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--リワードテスト-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,86 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrz-mn-a5H">
+                                <rect key="frame" x="204" y="123" width="192" height="44"/>
+                                <color key="backgroundColor" red="0.62950294683189445" green="0.7062960549847882" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7di-Y3-C5n"/>
+                                    <constraint firstAttribute="width" constant="192" id="mze-an-I9B"/>
+                                </constraints>
+                                <state key="normal" title="CAリワード">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapCARewardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KXb-rc-Aht"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXF-zE-fru">
+                                <rect key="frame" x="204" y="207" width="192" height="44"/>
+                                <color key="backgroundColor" red="0.62950294679999996" green="0.70629605500000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="ech-O9-6cT"/>
+                                    <constraint firstAttribute="height" constant="44" id="hrI-Bz-7b7"/>
+                                </constraints>
+                                <state key="normal" title="AppDriver">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapAppDriverButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RTl-aF-ZpM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BxZ-Vn-AYe">
+                                <rect key="frame" x="204" y="290" width="192" height="44"/>
+                                <color key="backgroundColor" red="0.62950294679999996" green="0.70629605500000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="0wN-IJ-JZI"/>
+                                    <constraint firstAttribute="height" constant="44" id="PiD-h5-eDY"/>
+                                </constraints>
+                                <state key="normal" title="AdStir動画視聴">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapAdstirButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5uU-Qz-Wli"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jXF-zE-fru" firstAttribute="top" secondItem="nrz-mn-a5H" secondAttribute="bottom" constant="40" id="5s0-kq-isT"/>
+                            <constraint firstItem="BxZ-Vn-AYe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HUT-Ct-2dZ"/>
+                            <constraint firstItem="nrz-mn-a5H" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="59" id="YOU-Gf-hJX"/>
+                            <constraint firstItem="BxZ-Vn-AYe" firstAttribute="top" secondItem="jXF-zE-fru" secondAttribute="bottom" constant="39" id="b5w-mz-zvj"/>
+                            <constraint firstItem="jXF-zE-fru" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dtl-3t-FgI"/>
+                            <constraint firstItem="nrz-mn-a5H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tFS-5L-GBJ"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="リワードテスト" id="FIM-yT-eQh"/>
+                    <connections>
+                        <outlet property="adstirButton" destination="BxZ-Vn-AYe" id="BBS-tK-O4u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1055" y="330"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HZx-X5-dk7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dLu-j5-fit" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RF7-0C-6v5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="svg-0n-xx4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sZi-ga-S8p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="330"/>
         </scene>
     </scenes>
 </document>

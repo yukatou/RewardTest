@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A15D2321C99144800092F89 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A15D2311C99144700092F89 /* UnityAds.framework */; };
+		9A15D2341C99144A00092F89 /* libAdstirAdsMediationAdapter-UnityAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A15D2331C99144A00092F89 /* libAdstirAdsMediationAdapter-UnityAds.a */; };
+		9A15D2361C99144D00092F89 /* AdstirAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A15D2351C99144D00092F89 /* AdstirAds.framework */; };
+		9A15D2391C99145300092F89 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A15D2371C99145300092F89 /* AdColony.framework */; };
+		9A15D23A1C99145300092F89 /* libAdstirAdsMediationAdapter-AdColony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A15D2381C99145300092F89 /* libAdstirAdsMediationAdapter-AdColony.a */; };
+		9A15D23C1C99146B00092F89 /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A15D23B1C99146B00092F89 /* UnityAds.bundle */; };
+		9A19CB821C993FA9009663FD /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A19CB811C993FA9009663FD /* JavaScriptCore.framework */; };
+		9A19CB861C994D9F009663FD /* NSString+NSString_hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A19CB851C994D9F009663FD /* NSString+NSString_hash.m */; };
+		9AA774141C9911DB0039EB25 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774131C9911DB0039EB25 /* libz.1.2.5.tbd */; };
+		9AA774161C9911E50039EB25 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774151C9911E50039EB25 /* libsqlite3.0.tbd */; };
+		9AA774181C9911ED0039EB25 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774171C9911ED0039EB25 /* AdSupport.framework */; };
+		9AA7741A1C9911F70039EB25 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774191C9911F70039EB25 /* AudioToolbox.framework */; };
+		9AA7741C1C9912080039EB25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA7741B1C9912080039EB25 /* AVFoundation.framework */; };
+		9AA7741E1C9912100039EB25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA7741D1C9912100039EB25 /* CoreGraphics.framework */; };
+		9AA774201C99121B0039EB25 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA7741F1C99121B0039EB25 /* CoreMedia.framework */; };
+		9AA774221C9912230039EB25 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774211C9912230039EB25 /* CoreTelephony.framework */; };
+		9AA774251C99122D0039EB25 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774231C99122D0039EB25 /* EventKit.framework */; };
+		9AA774261C99122D0039EB25 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774241C99122D0039EB25 /* EventKitUI.framework */; };
+		9AA774281C9912380039EB25 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774271C9912380039EB25 /* MediaPlayer.framework */; };
+		9AA7742A1C9912410039EB25 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774291C9912410039EB25 /* MessageUI.framework */; };
+		9AA7742C1C99124B0039EB25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA7742B1C99124B0039EB25 /* QuartzCore.framework */; };
+		9AA7742E1C9912540039EB25 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA7742D1C9912540039EB25 /* Security.framework */; };
+		9AA774301C99125A0039EB25 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA7742F1C99125A0039EB25 /* Social.framework */; };
+		9AA774321C9912620039EB25 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774311C9912620039EB25 /* StoreKit.framework */; };
+		9AA774341C99126E0039EB25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774331C99126E0039EB25 /* SystemConfiguration.framework */; };
+		9AA774361C9912790039EB25 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA774351C9912790039EB25 /* WebKit.framework */; };
 		9ADD73071C990DF3007A9F84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD73061C990DF3007A9F84 /* main.m */; };
 		9ADD730A1C990DF3007A9F84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD73091C990DF3007A9F84 /* AppDelegate.m */; };
 		9ADD730D1C990DF3007A9F84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD730C1C990DF3007A9F84 /* ViewController.m */; };
@@ -35,6 +61,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A15D2311C99144700092F89 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAds.framework; path = "AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/UnityAds/UnityAds.framework"; sourceTree = "<group>"; };
+		9A15D2331C99144A00092F89 /* libAdstirAdsMediationAdapter-UnityAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libAdstirAdsMediationAdapter-UnityAds.a"; path = "AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/UnityAds/libAdstirAdsMediationAdapter-UnityAds.a"; sourceTree = "<group>"; };
+		9A15D2351C99144D00092F89 /* AdstirAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdstirAds.framework; path = "AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/AdstirAds.framework"; sourceTree = "<group>"; };
+		9A15D2371C99145300092F89 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = "AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/AdColony/AdColony.framework"; sourceTree = "<group>"; };
+		9A15D2381C99145300092F89 /* libAdstirAdsMediationAdapter-AdColony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libAdstirAdsMediationAdapter-AdColony.a"; path = "AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/AdColony/libAdstirAdsMediationAdapter-AdColony.a"; sourceTree = "<group>"; };
+		9A15D23B1C99146B00092F89 /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = UnityAds.bundle; path = "AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/UnityAds/UnityAds.bundle"; sourceTree = "<group>"; };
+		9A19CB811C993FA9009663FD /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9A19CB841C994D9F009663FD /* NSString+NSString_hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSString_hash.h"; sourceTree = "<group>"; };
+		9A19CB851C994D9F009663FD /* NSString+NSString_hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSString_hash.m"; sourceTree = "<group>"; };
+		9AA774131C9911DB0039EB25 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		9AA774151C9911E50039EB25 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9AA774171C9911ED0039EB25 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9AA774191C9911F70039EB25 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9AA7741B1C9912080039EB25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9AA7741D1C9912100039EB25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AA7741F1C99121B0039EB25 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9AA774211C9912230039EB25 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9AA774231C99122D0039EB25 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		9AA774241C99122D0039EB25 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		9AA774271C9912380039EB25 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9AA774291C9912410039EB25 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9AA7742B1C99124B0039EB25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9AA7742D1C9912540039EB25 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9AA7742F1C99125A0039EB25 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9AA774311C9912620039EB25 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9AA774331C99126E0039EB25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9AA774351C9912790039EB25 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		9ADD73021C990DF3007A9F84 /* RewardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADD73061C990DF3007A9F84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9ADD73081C990DF3007A9F84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +111,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A19CB821C993FA9009663FD /* JavaScriptCore.framework in Frameworks */,
+				9A15D2391C99145300092F89 /* AdColony.framework in Frameworks */,
+				9A15D23A1C99145300092F89 /* libAdstirAdsMediationAdapter-AdColony.a in Frameworks */,
+				9A15D2361C99144D00092F89 /* AdstirAds.framework in Frameworks */,
+				9A15D2341C99144A00092F89 /* libAdstirAdsMediationAdapter-UnityAds.a in Frameworks */,
+				9A15D2321C99144800092F89 /* UnityAds.framework in Frameworks */,
+				9AA774361C9912790039EB25 /* WebKit.framework in Frameworks */,
+				9AA774341C99126E0039EB25 /* SystemConfiguration.framework in Frameworks */,
+				9AA774321C9912620039EB25 /* StoreKit.framework in Frameworks */,
+				9AA774301C99125A0039EB25 /* Social.framework in Frameworks */,
+				9AA7742E1C9912540039EB25 /* Security.framework in Frameworks */,
+				9AA7742C1C99124B0039EB25 /* QuartzCore.framework in Frameworks */,
+				9AA7742A1C9912410039EB25 /* MessageUI.framework in Frameworks */,
+				9AA774281C9912380039EB25 /* MediaPlayer.framework in Frameworks */,
+				9AA774251C99122D0039EB25 /* EventKit.framework in Frameworks */,
+				9AA774261C99122D0039EB25 /* EventKitUI.framework in Frameworks */,
+				9AA774221C9912230039EB25 /* CoreTelephony.framework in Frameworks */,
+				9AA774201C99121B0039EB25 /* CoreMedia.framework in Frameworks */,
+				9AA7741E1C9912100039EB25 /* CoreGraphics.framework in Frameworks */,
+				9AA7741C1C9912080039EB25 /* AVFoundation.framework in Frameworks */,
+				9AA774181C9911ED0039EB25 /* AdSupport.framework in Frameworks */,
+				9AA7741A1C9911F70039EB25 /* AudioToolbox.framework in Frameworks */,
+				9AA774161C9911E50039EB25 /* libsqlite3.0.tbd in Frameworks */,
+				9AA774141C9911DB0039EB25 /* libz.1.2.5.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +155,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AA774031C99111B0039EB25 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				9A19CB811C993FA9009663FD /* JavaScriptCore.framework */,
+				9AA774151C9911E50039EB25 /* libsqlite3.0.tbd */,
+				9AA774131C9911DB0039EB25 /* libz.1.2.5.tbd */,
+				9AA774351C9912790039EB25 /* WebKit.framework */,
+				9AA774331C99126E0039EB25 /* SystemConfiguration.framework */,
+				9AA774311C9912620039EB25 /* StoreKit.framework */,
+				9AA7742F1C99125A0039EB25 /* Social.framework */,
+				9AA7742D1C9912540039EB25 /* Security.framework */,
+				9AA7742B1C99124B0039EB25 /* QuartzCore.framework */,
+				9AA774291C9912410039EB25 /* MessageUI.framework */,
+				9AA774271C9912380039EB25 /* MediaPlayer.framework */,
+				9AA774231C99122D0039EB25 /* EventKit.framework */,
+				9AA774241C99122D0039EB25 /* EventKitUI.framework */,
+				9AA774211C9912230039EB25 /* CoreTelephony.framework */,
+				9AA7741F1C99121B0039EB25 /* CoreMedia.framework */,
+				9AA7741D1C9912100039EB25 /* CoreGraphics.framework */,
+				9AA7741B1C9912080039EB25 /* AVFoundation.framework */,
+				9AA774191C9911F70039EB25 /* AudioToolbox.framework */,
+				9AA774171C9911ED0039EB25 /* AdSupport.framework */,
+				9AA774101C99116F0039EB25 /* Adstir */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		9AA774101C99116F0039EB25 /* Adstir */ = {
+			isa = PBXGroup;
+			children = (
+				9A15D23B1C99146B00092F89 /* UnityAds.bundle */,
+				9A15D2351C99144D00092F89 /* AdstirAds.framework */,
+				9A15D2311C99144700092F89 /* UnityAds.framework */,
+				9A15D2371C99145300092F89 /* AdColony.framework */,
+				9A15D2381C99145300092F89 /* libAdstirAdsMediationAdapter-AdColony.a */,
+				9A15D2331C99144A00092F89 /* libAdstirAdsMediationAdapter-UnityAds.a */,
+			);
+			name = Adstir;
+			sourceTree = "<group>";
+		};
 		9ADD72F91C990DF3007A9F84 = {
 			isa = PBXGroup;
 			children = (
+				9AA774031C99111B0039EB25 /* Framework */,
 				9ADD73041C990DF3007A9F84 /* RewardTest */,
 				9ADD731E1C990DF3007A9F84 /* RewardTestTests */,
 				9ADD73291C990DF3007A9F84 /* RewardTestUITests */,
@@ -110,6 +228,8 @@
 				9ADD73131C990DF3007A9F84 /* LaunchScreen.storyboard */,
 				9ADD73161C990DF3007A9F84 /* Info.plist */,
 				9ADD73051C990DF3007A9F84 /* Supporting Files */,
+				9A19CB841C994D9F009663FD /* NSString+NSString_hash.h */,
+				9A19CB851C994D9F009663FD /* NSString+NSString_hash.m */,
 			);
 			path = RewardTest;
 			sourceTree = "<group>";
@@ -243,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A15D23C1C99146B00092F89 /* UnityAds.bundle in Resources */,
 				9ADD73151C990DF3007A9F84 /* LaunchScreen.storyboard in Resources */,
 				9ADD73121C990DF3007A9F84 /* Assets.xcassets in Resources */,
 				9ADD73101C990DF3007A9F84 /* Main.storyboard in Resources */,
@@ -271,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ADD730D1C990DF3007A9F84 /* ViewController.m in Sources */,
+				9A19CB861C994D9F009663FD /* NSString+NSString_hash.m in Sources */,
 				9ADD730A1C990DF3007A9F84 /* AppDelegate.m in Sources */,
 				9ADD73071C990DF3007A9F84 /* main.m in Sources */,
 			);
@@ -413,9 +535,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/UnityAds",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/AdColony",
+				);
 				INFOPLIST_FILE = RewardTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yukatou.RewardTest;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/UnityAds",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/AdColony",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yukatou.RewardTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +559,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/UnityAds",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/AdColony",
+				);
 				INFOPLIST_FILE = RewardTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yukatou.RewardTest;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/UnityAds",
+					"$(PROJECT_DIR)/AdstirAdsSdkiOS-2.6.6r2-VideoAdSDKBundled/AdColony",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yukatou.RewardTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +646,7 @@
 				9ADD73311C990DF3007A9F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ADD73321C990DF3007A9F84 /* Build configuration list for PBXNativeTarget "RewardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +655,7 @@
 				9ADD73341C990DF3007A9F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ADD73351C990DF3007A9F84 /* Build configuration list for PBXNativeTarget "RewardTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +664,7 @@
 				9ADD73371C990DF3007A9F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

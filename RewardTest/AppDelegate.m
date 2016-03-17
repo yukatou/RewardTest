@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+@import AdstirAds;
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *userId = [[NSBundle mainBundle] objectForInfoDictionaryKey: @"UserID"];
+    
+    [AdstirVideoReward setMediaUserID:userId];
+    [AdstirVideoReward prepareWithMedia:@"MEDIA-58d52411" spots:@[@7, @8]];
+    [AdstirVideoReward setTestModeEnabled:YES];
+    
     return YES;
 }
 
